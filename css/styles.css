@@ -3718,6 +3718,13 @@ input[type="button"].btn-block {
   background-color: #e9ecef;
   border-radius: 0.75rem; }
 
+  .jumbotron-image {
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+  }
+
 @media (min-width: 576px) {
   .jumbotron {
     padding: 4rem 2rem; } }
@@ -4727,6 +4734,14 @@ a.close.disabled {
 
 .bg-primary {
   background-color: #04767a !important; }
+
+.bg-primary-over {
+  background: url(assets/img/cover_photo_dakpol.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
 
 a.bg-primary:hover, a.bg-primary:focus,
 button.bg-primary:hover,
@@ -7304,8 +7319,9 @@ h3 {
     line-height: 2.75rem; }
   .masthead .masthead-subheading {
     font-size: 1.25rem; }
-  .masthead .masthead-avatar {
-    width: 15rem; }
+    .masterhead .masterhead-background{
+      background-image: url('assets/img/cover_photo_dakpol.jpg');
+    }
 
 @media (min-width: 992px) {
   .masthead {
@@ -7440,3 +7456,16 @@ form .row:first-child .floating-label-form-group {
   margin-bottom: 0.5rem; }
 
   .top-buffer { margin-top:40px; }
+
+  .bg {
+  /* The image used */
+  background-image: url("assets/img/cover_photo_dakpol.jpg");
+
+  /* Full height */
+  height: 50%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
